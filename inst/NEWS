@@ -1,0 +1,14 @@
+Changes in version 1.00 (2012-12-21)
+
+CHANGES
+
+    o 'corner' is modified so to handle dimensions of zero length.
+
+    o 'genopt.control' changes 'prob' to 0.4 (from 0.3).
+
+
+BUG FIXES
+
+    o 'genopt' didn't used to count the purely random phase in
+      'funevals'.
+

@@ -1,0 +1,4 @@
+export(corner, genopt, genopt.control, permutation.test.discrete,
+	permutation.test.fun)
+S3method(plot, permtstBurSt)
+S3method(print, permtstBurSt)
