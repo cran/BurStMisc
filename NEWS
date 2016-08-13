@@ -1,0 +1,33 @@
+Changes in version 1.1 (2016-08-13)
+
+ADDITIONS
+
+  o 'scriptSearch' searches directories of files for a regular expression.
+
+  o 'ntile' finds equally sized groups of numbers.
+
+  o the result of 'genopt' gains a class that has a 'summary' method.
+
+  o 'Cfrag.list' writes C code that declares (and possibly initializes) the components of a list.
+
+  o 'writeExpectTest' automatically writes an 'expect_equal' test (using the 'testthat' package) given an expression.
+
+BUG fIXES
+
+  o 'genopt' and the permutation tests would attempt to save '.Random.seed' even if it didn't exist yet.
+
+
+
+Changes in version 1.00 (2012-12-21)
+
+CHANGES
+
+  o 'corner' is modified to handle dimensions of zero length.
+
+  o 'genopt.control' changes 'prob' to 0.4 (from 0.3).
+
+
+BUG FIXES
+
+  o 'genopt' didn't used to count the purely random phase in 'funevals'.
+

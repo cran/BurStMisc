@@ -6,7 +6,7 @@ function (x, digits = 4, ...)
     cat("\nOriginal value:", x$original.score, "  Number of observations:", 
         x$stats["nobs"], "\n")
     cat("Number of random permutations:", x$stats["trials"], 
-        "  Alternative:", x$alternative, "  p-value:", 
-	   round(x$stats["p.value"], digits), "\n")
+        "  Alternative:", x$alternative, "  p-value:", round(x$stats["extreme"]/x$stats["trials"], 
+            digits), "\n")
     invisible(x)
 }
